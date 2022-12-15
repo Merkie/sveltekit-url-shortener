@@ -27,6 +27,7 @@
 				inputValue = `${window.location.origin}/go/${data.shortCode}`;
 
 				ghostLinkElem.classList.remove('opacity-0');
+				ghostLinkElem.classList.remove('top-1/2');
 				ghostLinkElem.classList.add('opacity-100');
 				ghostLinkElem.classList.add('top-2');
 				// wait for the animation to finish
