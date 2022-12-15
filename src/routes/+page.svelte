@@ -36,6 +36,7 @@
 				ghostLinkElem.classList.remove('opacity-100');
 				await new Promise((resolve) => setTimeout(resolve, 100));
 				ghostLinkElem.classList.remove('top-2');
+				ghostLinkElem.classList.add('top-1/2');
 			}
 		} else {
 			alert('Please enter a valid URL');
