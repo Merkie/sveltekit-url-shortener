@@ -66,7 +66,7 @@
 				bind:this={ghostLinkElem}
 				class="absolute transition-all opacity-0 pointer-events-none top-1/2 left-2 -translate-y-1/2"
 			/>
-			<div class="bottom-[500px]" />
+			<div class="top-2 pointer-events-none" />
 		</div>
 	</div>
 </main>
